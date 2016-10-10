@@ -1,4 +1,1 @@
-lazy val root = project.in(file(".")).dependsOn(githubRepo)
-
-lazy val githubRepo = uri("git://github.com/yoshiyoshifujii/sbt-aws-serverless.git#master")
-
+addSbtPlugin("com.github.yoshiyoshifujii" % "sbt-aws-serverless" % "1.5.0")
